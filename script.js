@@ -1,10 +1,10 @@
 const levels = [
-  { title: 'Set A · 1–10', file: 'set_A.json' },
-  { title: 'Set B · 11–20', file: 'set_B.json' },
-  { title: 'Set C · 21–30', file: 'set_C.json' },
-  { title: 'Set D · 31–40', file: 'set_D.json' },
-  { title: 'Set E · 41–50', file: 'set_E.json' },
-  { title: 'Set F · 51–63', file: 'set_F.json' }
+  { title: 'A', file: 'set_A.json' },
+  { title: 'B', file: 'set_B.json' },
+  { title: 'C', file: 'set_C.json' },
+  { title: 'D', file: 'set_D.json' },
+  { title: 'E', file: 'set_E.json' },
+  { title: 'F', file: 'set_F.json' }
 ];
 
 let deck = [];

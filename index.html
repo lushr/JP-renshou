@@ -4,62 +4,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f8c8dc">
-  <title>Jp Renshou</title>
+  <title>Drill</title>
+
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main class="app-shell">
-    <section class="top-card">
-      <div class="app-title-row">
-        <div>
-          <p class="eyebrow">Jp renshou</p>
-          <h1 id="levelTitle">Choose a set</h1>
-        </div>
-        <button id="resetButton" class="icon-button" type="button" aria-label="Shuffle deck">
-          <i class="bi bi-shuffle"></i>
-        </button>
+
+    <!-- TOP BAR -->
+    <section class="top-bar">
+      <button id="resetButton" class="icon-button" type="button">
+        <i class="bi bi-shuffle"></i>
+      </button>
+
+      <div class="level-picker" id="levelPicker">
+        <button data-level-index="0">A</button>
+        <button data-level-index="1">B</button>
+        <button data-level-index="2">C</button>
+        <button data-level-index="3">D</button>
+        <button data-level-index="4">E</button>
+        <button data-level-index="5">F</button>
       </div>
 
-      <div class="level-picker" id="levelPicker" aria-label="Choose a practice set">
-        <button class="level-button" type="button" data-level-index="0">A</button>
-        <button class="level-button" type="button" data-level-index="1">B</button>
-        <button class="level-button" type="button" data-level-index="2">C</button>
-        <button class="level-button" type="button" data-level-index="3">D</button>
-        <button class="level-button" type="button" data-level-index="4">E</button>
-        <button class="level-button" type="button" data-level-index="5">F</button>
-      </div>
-
-      <div class="progress-wrap" aria-label="Progress">
-        <div class="progress-label">
-          <span><i class="bi bi-bar-chart-line"></i> Progress</span>
-          <span id="progressText">0 / 0</span>
-        </div>
-        <div class="progress-track">
-          <div id="progressBar" class="progress-bar"></div>
-        </div>
-      </div>
+      <div id="progressText" class="progress-text">0/0</div>
     </section>
 
-    <section class="prompt-card" aria-live="polite">
+    <!-- PROMPT -->
+    <section class="prompt-card">
       <div class="chip-row" id="chipRow"></div>
-      <p class="prompt-label"><i class="bi bi-translate"></i> English prompt</p>
       <h2 id="englishPrompt">Loading...</h2>
     </section>
 
-    <section id="answerCard" class="answer-card hidden" aria-live="polite">
-      <p class="answer-label"><i class="bi bi-eye"></i> Japanese answer</p>
+    <!-- ANSWER -->
+    <section id="answerCard" class="answer-card hidden">
       <p id="japaneseAnswer" class="japanese-text"></p>
       <p id="noteText" class="note-text"></p>
-      <button id="nextButton" class="primary-button yellow" type="button">
-        <i class="bi bi-arrow-right-circle"></i> Next sentence
+
+      <button id="nextButton" class="primary-button" type="button">
+        Next
       </button>
     </section>
 
-    <button id="revealButton" class="primary-button pink" type="button">
-      <i class="bi bi-eye"></i> Reveal answer
+    <button id="revealButton" class="reveal-button" type="button">
+      Reveal
     </button>
+
   </main>
 
   <script src="script.js"></script>

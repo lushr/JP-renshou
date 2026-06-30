@@ -1,51 +1,33 @@
-const CACHE_NAME = "japanese-drill-v4";
-
+const CACHE_NAME = 'japanese-drill-v3';
 const APP_FILES = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./script.js",
-
-  "./set_A.json",
-  "./set_B.json",
-  "./set_C.json",
-  "./set_D.json",
-  "./set_E.json",
-  "./set_F.json",
-
-  "./manifest.json",
-  "./icon.svg"
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './set_A.json',
+  './set_B.json',
+  './set_C.json',
+  './set_D.json',
+  './set_E.json',
+  './set_F.json',
+  './manifest.json',
+  './icon.svg'
 ];
 
-// INSTALL
-self.addEventListener("install", event => {
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)));
+});
+
+self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(APP_FILES);
-    })
+    caches.keys().then(keys => Promise.all(keys.map(key => {
+      if (key !== CACHE_NAME) return caches.delete(key);
+    })))
   );
 });
 
-// ACTIVATE (clear old caches)
-self.addEventListener("activate", event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.map(key => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-        })
-      )
-    )
-  );
-});
-
-// FETCH (cache first, then network fallback)
-self.addEventListener("fetch", event => {
+self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      return cached || fetch(event.request);
-    })
+    caches.match(event.request).then(cached => cached || fetch(event.request))
   );
 });

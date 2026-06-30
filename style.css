@@ -215,9 +215,7 @@ h2 {
 }
 
 .note-text {
-  margin: 8px 0 0;
-  font-size: 0.88rem;
-  font-weight: 700;
+  display: none;
 }
 
 .primary-button {

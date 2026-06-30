@@ -3,23 +3,29 @@
   --pink: #f8c8dc;
   --blue: #cdefff;
   --yellow: #fff3b0;
-  --radius: 18px;
+  --white: #ffffff;
+  --radius: 16px;
 }
 
+/* RESET */
 * {
   box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
+  padding: 0;
   height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: linear-gradient(135deg, var(--pink), var(--blue), var(--yellow));
-  font-family: system-ui;
+  color: var(--ink);
 }
 
+/* APP LAYOUT (NO SCROLL DESIGN) */
 body {
   display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 
 .app-shell {
@@ -39,19 +45,23 @@ body {
   gap: 6px;
 }
 
+/* shuffle button */
 .icon-button {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   border: 3px solid var(--ink);
   border-radius: 12px;
   background: var(--blue);
   font-size: 1.2rem;
+  font-weight: 900;
 }
 
-/* A–F buttons */
+/* A–F selector */
 .level-picker {
   display: flex;
   gap: 4px;
+  flex: 1;
+  justify-content: center;
 }
 
 .level-picker button {
@@ -61,17 +71,24 @@ body {
   border-radius: 8px;
   background: var(--yellow);
   font-weight: 900;
+  font-size: 0.85rem;
+}
+
+.level-picker button.active {
+  background: var(--pink);
 }
 
 /* progress */
 .progress-text {
+  font-size: 0.75rem;
   font-weight: 800;
-  font-size: 0.8rem;
+  min-width: 40px;
+  text-align: right;
 }
 
-/* PROMPT */
+/* PROMPT CARD */
 .prompt-card {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.92);
   border: 3px solid var(--ink);
   border-radius: var(--radius);
   padding: 10px;
@@ -80,29 +97,32 @@ body {
   justify-content: center;
 }
 
+/* English prompt */
 h2 {
   margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.2;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  font-weight: 900;
 }
 
-/* chips */
+/* CHIP ROW */
 .chip-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
   margin-bottom: 6px;
 }
 
 .chip {
   font-size: 0.75rem;
+  font-weight: 800;
   border: 2px solid var(--ink);
   border-radius: 999px;
   padding: 4px 8px;
   background: var(--blue);
 }
 
-/* ANSWER */
+/* ANSWER CARD */
 .answer-card {
   background: var(--yellow);
   border: 3px solid var(--ink);
@@ -111,23 +131,25 @@ h2 {
 }
 
 .japanese-text {
-  font-size: 1.3rem;
-  font-weight: 800;
   margin: 0;
+  font-size: 1.3rem;
+  font-weight: 900;
 }
 
 .note-text {
-  font-size: 0.85rem;
   margin-top: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
 }
 
-/* buttons */
+/* BUTTONS */
 .primary-button,
 .reveal-button {
   width: 100%;
   border: 3px solid var(--ink);
   border-radius: var(--radius);
   padding: 10px;
+  font-size: 1rem;
   font-weight: 900;
 }
 
@@ -136,10 +158,27 @@ h2 {
 }
 
 .reveal-button {
-  background: white;
+  background: var(--white);
 }
 
 /* hidden */
 .hidden {
   display: none;
+}
+
+/* MOBILE TWEAKS */
+@media (max-height: 700px) {
+  .app-shell {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .primary-button,
+  .reveal-button {
+    padding: 8px;
+  }
 }

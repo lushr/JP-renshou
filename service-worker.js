@@ -1,4 +1,4 @@
-const CACHE_NAME = 'japanese-drill-v3';
+const CACHE_NAME = 'japanese-drill-v4';
 const APP_FILES = [
   './',
   './index.html',

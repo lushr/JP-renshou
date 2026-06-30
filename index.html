@@ -12,23 +12,22 @@
 <body>
   <main class="app-shell">
     <section class="top-card">
-      <div class="app-title-row">
-        <div>
-          <p class="eyebrow">Japanese sentence drill</p>
-          <h1 id="levelTitle">Choose a set</h1>
+      <p class="eyebrow">Japanese sentence drill</p>
+      <h1 id="levelTitle">Choose a set</h1>
+
+      <div class="top-controls">
+        <div class="level-picker" id="levelPicker" aria-label="Choose a practice set">
+          <button class="level-button" type="button" data-level-index="0">A</button>
+          <button class="level-button" type="button" data-level-index="1">B</button>
+          <button class="level-button" type="button" data-level-index="2">C</button>
+          <button class="level-button" type="button" data-level-index="3">D</button>
+          <button class="level-button" type="button" data-level-index="4">E</button>
+          <button class="level-button" type="button" data-level-index="5">F</button>
         </div>
+
         <button id="resetButton" class="icon-button" type="button" aria-label="Shuffle deck">
           <i class="bi bi-shuffle"></i>
         </button>
-      </div>
-
-      <div class="level-picker" id="levelPicker" aria-label="Choose a practice set">
-        <button class="level-button" type="button" data-level-index="0">Set A</button>
-        <button class="level-button" type="button" data-level-index="1">Set B</button>
-        <button class="level-button" type="button" data-level-index="2">Set C</button>
-        <button class="level-button" type="button" data-level-index="3">Set D</button>
-        <button class="level-button" type="button" data-level-index="4">Set E</button>
-        <button class="level-button" type="button" data-level-index="5">Set F</button>
       </div>
 
       <div class="progress-wrap" aria-label="Progress">

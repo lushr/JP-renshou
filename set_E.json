@@ -1,0 +1,197 @@
+[
+  {
+    "id": 41,
+    "english": "This is the third time I broke my phone.",
+    "japanese": "これ は さんかいめ の けいたい を こわした。",
+    "note": "Counting occurrences + past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "〜かいめ",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "こわす",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "english": "I dropped my phone again.",
+    "japanese": "また けいたい を おとした。",
+    "note": "Past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "おとす",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "english": "On the way to work, I always cross Shibuya Scramble.",
+    "japanese": "しごと へ いく とちゅうで、いつも しぶや スクランブル を わたる。",
+    "note": "Talking about something that happens on the way somewhere.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-signpost",
+        "label": "へ",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜で",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "わたる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "english": "I went around Parco.",
+    "japanese": "パルコ を まわった。",
+    "note": "Past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "まわる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "english": "I got off at the wrong station.",
+    "japanese": "まちがった えき で おりた。",
+    "note": "Past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "おりる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "english": "I was so tired I caught a taxi home.",
+    "japanese": "とても つかれた から、タクシー に のって うち に かえった。",
+    "note": "Reason + sequence of actions.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜から",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "のる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "english": "It's 31 degrees today. Super hot!",
+    "japanese": "きょう は さんじゅういち ど。ちょう あつい！",
+    "note": "Talking about the weather.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "ど",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "english": "I drank all my water.",
+    "japanese": "みず を ぜんぶ のんだ。",
+    "note": "Past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "english": "I'm not awake yet.",
+    "japanese": "まだ おきていない。",
+    "note": "Something hasn't happened yet.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜ていない",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "english": "I lost my wallet somewhere.",
+    "japanese": "どこか で さいふ を なくした。",
+    "note": "Past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "どこか",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "なくす",
+        "colour": "green"
+      }
+    ]
+  }
+]

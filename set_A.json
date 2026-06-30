@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "english": "Last night, I watched the best old TV show!",
+    "japanese": "ゆうべ、この めっちゃ さいこう の ふるい ばんぐみ を みた よ！",
+    "note": "Past action + time expression.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "ゆうべ",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "english": "Harajuku was always colourful, but it so crowded it was a hassle.",
+    "japanese": "はらじゅく は いつも カラフル だけど、こんでいて、めんどくさかった。",
+    "note": "Past state + adjective + て link.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜だ",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜いて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "こんでいる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "english": "I found a really good and cheap ramen shop.",
+    "japanese": "めっちゃ よくて、やすい ラーメンや を みつけた",
+    "note": "Adjective link + past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "english": "That robot was strange but really friendly.",
+    "japanese": "あの ロボット は へん だけど 、 とても しんせつ だった。",
+    "note": "Contrast with けど + past state adjective.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜だった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "english": "I make delicious, spicy curry.",
+    "japanese": "おいしくて、からい カレー を つくる。",
+    "note": "い-adjective くて-form linking (adjectives).",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "english": "Kabukicho was scary at night",
+    "japanese": "よる の かぶきちょう は こわかった",
+    "note": "Past adjective (scary at night).",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "english": "I always get lost at Shinjuku Station. I never go there.",
+    "japanese": "しんじゅくえき で いつも まよう。ぜんぜん いかない",
+    "note": "Habit + two independent clauses (no て-link).",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "まよう",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "english": "Takadanobaba Station's music is so nostalgic.",
+    "japanese": "たかだのばばえき の おんがく は すごく なつかしい",
+    "note": "Descriptive noun phrase + emotion.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "なつかしい",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "english": "Next time I want to buy a soft black scarf.",
+    "japanese": "こんど、やわらかい、くろい マフラー を かいたい",
+    "note": "Adjective order + desire form.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "〜たい",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "やわらかい",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "english": "I lost my fluffy purple scarf yesterday.",
+    "japanese": "きのう ふわふわ の むらさき の マフラー を なくした",
+    "note": "Past action + possessive description.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "なくす",
+        "colour": "green"
+      }
+    ]
+  }
+]

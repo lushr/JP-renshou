@@ -1,0 +1,182 @@
+[
+  {
+    "id": 11,
+    "english": "The café I always go to is stylish and has a good atmosphere.",
+    "japanese": "いつも いく カフェ は おしゃれで、ふんいき が いいね",
+    "note": "Habit + な-adjective + atmosphere description.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜で link",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "english": "I want an amazing inexpensive guitar.",
+    "japanese": "さいこう の たかくない ギター が ほしい",
+    "note": "Desire form + adjective contrast (expensive vs not expensive).",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "〜ほしい",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "たかくない",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "english": "That shop was the best and not expensive.",
+    "japanese": "あの みせ は さいこう で、やすくなかった。",
+    "note": "で link + negative past adjective.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜で link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "english": "I'm going to buy a bigger notebook.",
+    "japanese": "もっと おおきい ノート を かう。",
+    "note": "Using もっと for comparison.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "もっと",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "english": "I'm looking for a soft, red eraser.",
+    "japanese": "やわらかくて、あかい けしごむ を さがしている。",
+    "note": "Adjective linking + ongoing action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "さがしている",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "english": "His clothes were old and dirty, so I threw them out.",
+    "japanese": "かれ の ふく は ふるくて、きたなかった から、すてた。",
+    "note": "Adjective linking + reason + past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜から",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "すてた",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "english": "The staff at that library are always strict and cold.",
+    "japanese": "あの としょかん の スタッフ は いつも きびしくて、つめたい。",
+    "note": "Linking two い-adjectives.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "つめたい",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "english": "My favourite hotel is old and clean.",
+    "japanese": "いちばん すきな ホテル は ふるかった けど、いつも きれい だった。",
+    "note": "Contrast using けど.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "けど",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "english": "This weekend, I'll definitely wash the dishes. Promise!",
+    "japanese": "こんしゅうまつ、ぜったい おさら を あらう。やくそく！",
+    "note": "Future intention with emphasis.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "やくそく",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "english": "Yesterday I found a quiet little café.",
+    "japanese": "きのう、しずかな、ちいさい カフェ を みつけた。",
+    "note": "な-adjective before a noun + past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "な-adj + noun",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  }
+]

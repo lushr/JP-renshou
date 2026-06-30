@@ -1,0 +1,182 @@
+[
+  {
+    "id": 21,
+    "english": "My old computer was huge and soooooo slow!",
+    "japanese": "ふるい パソコン は おおきくて、めっちゃ おそかった！",
+    "note": "Linking い-adjectives + past adjective.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "english": "That old TV was really heavy, but so tiny!",
+    "japanese": "あの ふるい テレビ は めっちゃ おもかった けど、すごく ちいさかった！",
+    "note": "Contrast with けど + past adjectives.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "けど",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "english": "The last book I read was sooooo long and boring.",
+    "japanese": "さいご に よんだ ほん は、すごく ながくて、つまらなかった。",
+    "note": "Relative clause + adjective linking.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "さいご に",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜くて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "english": "I always oversleep and I'm always late.",
+    "japanese": "いつも ねぼう して、おそくなる。",
+    "note": "Verb て-form linking actions.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜て link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "おそくなる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "english": "My room is between an izakaya and a school. I never sleep.",
+    "japanese": "へや は いざかや と、がっこう の あいだ。ぜんぜん ねない。",
+    "note": "Location using あいだ.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "あいだ",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "english": "At the Koenji cat cafe, the cats are unfriendly and the smell is terrible.",
+    "japanese": "こうえんじ の ねこ カフェ で、ねこ が やさしくなくて、におい が ひどい。",
+    "note": "Location particle + negative adjective linking.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-geo-alt",
+        "label": "で (location)",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜なくて link",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "english": "Shibuya is crowded with stupid foreigners.",
+    "japanese": "しぶや は ばか がいじん で こんでいる。",
+    "note": "Using で to describe what something is crowded with.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "で",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "こんでいる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "english": "Shibuya is always crowded, and it's exhausting.",
+    "japanese": "しぶや は いつも こんでいて、つかれる。",
+    "note": "Verb て-form linking a state and its result.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜いて link",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "こんでいる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "english": "This shirt? It wasn't expensive.",
+    "japanese": "この シャツ？ たかくなかった。",
+    "note": "Negative past adjective.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜かった",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "english": "I forgot my lunch again.",
+    "japanese": "また おべんとう を わすれた。",
+    "note": "Past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  }
+]

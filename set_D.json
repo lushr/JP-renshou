@@ -1,0 +1,197 @@
+[
+  {
+    "id": 31,
+    "english": "I stayed with friends in Gifu.",
+    "japanese": "ギフ で ともだち の うち に とまった。",
+    "note": "Staying at someone's house.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-geo-alt",
+        "label": "で (location)",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "とまる",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "english": "I never bring my textbook.",
+    "japanese": "きょうかしょ は ぜんぜん もっていかない。",
+    "note": "Negative habitual action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "きょうかしょ",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "もっていく",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "english": "I always forget my phone.",
+    "japanese": "いつも けいたい を わすれる。",
+    "note": "Habitual action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "わすれる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "english": "I forgot my keys, phone and wallet last week.",
+    "japanese": "せんしゅう、かぎ や けいたい や さいふ を わすれた。",
+    "note": "Listing items with や + past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-list-ul",
+        "label": "や",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "english": "I don't want to go to bed.",
+    "japanese": "ねたくない。",
+    "note": "Negative desire form.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "〜たくない",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "english": "I want to go out by 6:30.",
+    "japanese": "ろくじはん まで に でかけたい。",
+    "note": "Leaving by a specific time.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "までに",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "でかける",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "english": "I'll arrive at the gig at 10:30.",
+    "japanese": "じゅうじはん に ライブ に つく。",
+    "note": "Arriving at a destination at a specific time.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "に (time)",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "つく",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "english": "I helped prepare for the event yesterday.",
+    "japanese": "きのう イベント の じゅんび を てつだった。",
+    "note": "Past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "じゅんび",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "てつだう",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "english": "Last night I played a gig.",
+    "japanese": "ゆうべ ライブ に でた。",
+    "note": "Past action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "ゆうべ",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "でる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "english": "My boss is usually angry.",
+    "japanese": "じょうし は たいてい おこっている。",
+    "note": "Describing an ongoing state.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-type",
+        "label": "〜ている",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "おこる",
+        "colour": "green"
+      }
+    ]
+  }
+]

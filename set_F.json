@@ -1,0 +1,196 @@
+[
+  {
+    "id": 51,
+    "english": "He left at 8.",
+    "japanese": "かれ は はちじ に でた。",
+    "note": "Past action.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "でる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "english": "I still haven't eaten breakfast.",
+    "japanese": "まだ あさごはん を たべていない。",
+    "note": "Something hasn't happened yet.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜ていない",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "まだ",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "english": "It's okay! There's a nearby station.",
+    "japanese": "だいじょうぶ！ちかく の えき が ある。",
+    "note": "Describing something nearby.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "ちかく の",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "english": "I am near the station.",
+    "japanese": "えき の ちかく に いる。",
+    "note": "something is near something else.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "X の ちかく",
+        "colour": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "english": "I'm nearly there.",
+    "japanese": "もうすぐ つくよ！",
+    "note": "Something will happen very soon.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "つく",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "english": "It's fricking freezing!",
+    "japanese": "めっちゃ さむい！",
+    "note": "Reacting to very cold weather.",
+    "difficulty": "easy",
+    "tags": []
+  },
+  {
+    "id": 57,
+    "english": "Shit! The shower was cold.",
+    "japanese": "くそ！シャワー が つめたかった。",
+    "note": "Describing something that was physically cold.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "つめたい",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "english": "I use a towel.",
+    "japanese": "タオル を つかう。",
+    "note": "Using something.",
+    "difficulty": "easy",
+    "tags": []
+  },
+  {
+    "id": 59,
+    "english": "I make paper cranes.",
+    "japanese": "かみ の つる を つくる。",
+    "note": "Making something.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "つる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "english": "I was late, so I ran to work.",
+    "japanese": "おそくなった から、しごと まで はしった。",
+    "note": "Giving a reason for an action.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-link-45deg",
+        "label": "〜から",
+        "colour": "yellow"
+      },
+      {
+        "icon": "bi-clock-history",
+        "label": "〜た",
+        "colour": "pink"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "おそくなる",
+        "colour": "green"
+      },
+      {
+        "icon": "bi-stars",
+        "label": "はしる",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "english": "I walked to Shimokita.",
+    "japanese": "しもきた まで あるいた。",
+    "note": "Walking to a destination.",
+    "difficulty": "easy",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "あるく",
+        "colour": "green"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "english": "Enough already!",
+    "japanese": "もう いい よ！",
+    "note": "A common conversational expression.",
+    "difficulty": "easy",
+    "tags": []
+  },
+  {
+    "id": 63,
+    "english": "I already arrived.",
+    "japanese": "もう ついた。",
+    "note": "Something has already happened.",
+    "difficulty": "medium",
+    "tags": [
+      {
+        "icon": "bi-stars",
+        "label": "つく",
+        "colour": "green"
+      }
+    ]
+  }
+]

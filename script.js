@@ -119,10 +119,7 @@ nextButton.addEventListener('click', () => {
   showCard();
 });
 
-resetButton.addEventListener('click', () => {
-  shuffleDeck();
-  showCard();
-});
+
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

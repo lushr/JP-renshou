@@ -293,7 +293,7 @@ h2 {
   }
 }
 
-.speech-control-row { display:flex; align-items:center; gap:10px; margin-top:18px; }
+.speech-control-row { display:flex; align-items:center; justify-content:center; gap:10px; margin-top:18px; }
 .small-speech-button { width:46px; height:44px; border:3px solid var(--ink); border-radius:14px; background:var(--blue); color:var(--ink); font:900 1.2rem system-ui; box-shadow:3px 3px 0 var(--ink); cursor:pointer; }
 .small-speech-button:active { transform:translate(2px,2px); box-shadow:1px 1px 0 var(--ink); }
 .voice-note { margin:8px 0 0; font-size:0.72rem; opacity:0.7; }

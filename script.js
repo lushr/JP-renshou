@@ -15,6 +15,9 @@ let activeLevelIndex = 0;
 
 const englishPrompt = document.getElementById('englishPrompt');
 const pronounceButton = document.getElementById('pronounceButton');
+let speechRate = 0.85;
+document.getElementById('slowerButton').addEventListener('click', () => { speechRate = Math.max(0.5, +(speechRate - 0.1).toFixed(2)); });
+document.getElementById('fasterButton').addEventListener('click', () => { speechRate = Math.min(1.3, +(speechRate + 0.1).toFixed(2)); });
 const japaneseAnswer = document.getElementById('japaneseAnswer');
 const answerCard = document.getElementById('answerCard');
 const revealButton = document.getElementById('revealButton');
@@ -61,7 +64,7 @@ function updateLevelButtons() {
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(currentCard.japanese);
   utterance.lang = 'ja-JP';
-  utterance.rate = 0.85;
+  utterance.rate = speechRate;
   const voices = window.speechSynthesis.getVoices();
   const japaneseVoice = voices.find(v => v.lang.toLowerCase() === 'ja-jp') || voices.find(v => v.lang.toLowerCase().startsWith('ja'));
   if (japaneseVoice) utterance.voice = japaneseVoice;

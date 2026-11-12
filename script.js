@@ -14,6 +14,7 @@ let currentCard = null;
 let activeLevelIndex = 0;
 
 const englishPrompt = document.getElementById('englishPrompt');
+const pronounceButton = document.getElementById('pronounceButton');
 const japaneseAnswer = document.getElementById('japaneseAnswer');
 const answerCard = document.getElementById('answerCard');
 const revealButton = document.getElementById('revealButton');
@@ -55,7 +56,19 @@ async function loadDeck(levelIndex = 0) {
 }
 
 function updateLevelButtons() {
-  levelButtons.forEach((button, index) => {
+  pronounceButton.addEventListener('click', () => {
+  if (!currentCard || !('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(currentCard.japanese);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  const voices = window.speechSynthesis.getVoices();
+  const japaneseVoice = voices.find(v => v.lang.toLowerCase() === 'ja-jp') || voices.find(v => v.lang.toLowerCase().startsWith('ja'));
+  if (japaneseVoice) utterance.voice = japaneseVoice;
+  window.speechSynthesis.speak(utterance);
+});
+
+levelButtons.forEach((button, index) => {
     button.classList.toggle('active', index === activeLevelIndex);
   });
 }
@@ -76,6 +89,7 @@ function showCard() {
     shuffleDeck();
   }
 
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
   currentCard = deck[order[currentIndex]];
   englishPrompt.textContent = currentCard.english;
   japaneseAnswer.textContent = currentCard.japanese;
